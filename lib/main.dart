@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Animal Classification',
+      title: '1001 Classification for Google MobileNetV1',
       home: Home(),
       debugShowCheckedModeBanner: false,
     );

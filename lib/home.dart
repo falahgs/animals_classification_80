@@ -64,8 +64,8 @@ class _HomeState extends State<Home> {
   loadModel() async {
     //this function loads our model
     await Tflite.loadModel(
-      model: 'assets/model.tflite',
-      labels: 'assets/labels.txt',
+      model: 'assets/mobilenet_v1_1.0_224.tflite',
+      labels: 'assets/mobilenet_v1_1.0_224.txt',
     );
   }
 
@@ -98,7 +98,7 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.purpleAccent,
         centerTitle: true,
         title: Text(
-          'تصنيف عالم الحيوان',
+          'تصنيف 1001 فئة لشركة كوكل ',
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.w500,
